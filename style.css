@@ -7,6 +7,23 @@
     font-family: "Poppins", sans-serif;
 }
 
+.iframe-container {
+  background-color: white; /* 设置背景为白色 */
+  width: 100%; /* 或者设置为具体的宽度，如600px */
+  height: 740px; /* 确保高度与iframe的高度一致 */
+  overflow: hidden; /* 隐藏超出容器的部分 */
+  position: relative; /* 相对定位 */
+}
+
+.iframe-container iframe {
+  position: absolute; /* 绝对定位 */
+  top: 0;
+  left: 0;
+  width: 100%; /* 宽度填满容器 */
+  height: 100%; /* 高度填满容器 */
+  border: none; /* 移除边框 */
+}
+
 body {
     background: #1f242d;
     color: #fff;
